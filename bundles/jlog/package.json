@@ -1,0 +1,10 @@
+{
+	"name": "jlog",
+	"main": "index.js",
+	"version": "1.0.0",
+	"description": "JSON console logging",
+	"dependencies": {
+		"config": "*",
+		"moment": "^2.14.1"
+	}
+}

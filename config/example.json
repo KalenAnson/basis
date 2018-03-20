@@ -1,0 +1,53 @@
+{
+	"server": {
+		"address": "127.0.0.1",
+		"port": "3000",
+		"pub_dir": "/public",
+		"csrf": false,
+		"cookie_secret": "anything"
+	},
+	"logging": {
+		"level": 5
+	},
+	"modules": {
+		"default": "app",
+		"app": true,
+		"auth": true
+	},
+	"session": {
+		"host": "localhost",
+		"port": 3306,
+		"user": "user",
+		"password": "password",
+		"database": "db",
+		"createTable": true,
+		"schema": {
+			"tableName": "session",
+			"columnNames": {
+				"session_id": "session_id",
+				"expires": "expires",
+				"data": "data"
+			}
+		},
+		"secret": "secreter"
+	},
+	"email": {
+		"host": "",
+		"port": 0,
+		"auth": {
+			"user": "",
+			"pass": ""
+		}
+	},
+	"apiKeys": [
+		"1234567890",
+		"0987654321"
+	],
+	"rdb": {
+		"host": "localhost",
+		"port": 3306,
+		"user": "user",
+		"password": "password",
+		"database": "db"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "basis-server",
+	"version": "1.2.0",
+	"main": "index.js",
+	"dependencies": {
+		"body-parser": ">=1.x",
+		"config": "*",
+		"express": "4.x",
+		"jlog": "*",
+		"longjohn": "^0.2.12",
+		"config": "*",
+	    "cookies": "0.x",
+	    "express": "4.x",
+	    "express-session": "^1.12.0",
+		"express-mysql-session": "^1.2.2",
+	    "less-middleware": "^2.0.1",
+	    "serve-static": "1.x"
+	}
+}
