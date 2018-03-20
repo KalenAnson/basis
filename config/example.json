@@ -10,10 +10,10 @@
 		"level": 5
 	},
 	"modules": {
-		"default": "api",
+		"default": "bundle",
 		"api": true,
-		"auth": false,
-		"bundle": false
+		"auth": true,
+		"bundle": true
 	},
 	"session": {
 		"host": "localhost",
