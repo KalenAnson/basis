@@ -1,43 +1,51 @@
 {
-  "name" : "basis",
+  "name": "basis",
   "description": "API and bundle web server boilerplate",
   "version": "1.0.0",
-  "main" : "main.js",
+  "main": "main.js",
   "engines": {
     "node": ">=6.0.0"
   },
   "directories": {
-		"lib": "lib"
-	},
-	"scripts": {
-		"start": "webpack --watch",
-		"build": "webpack"
-	},
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
   "author": "Kalen Hall",
   "license": "MIT",
   "bugs": {
-	"url": "https://github.com/Seltrol/Invoice-System/issues"
+    "url": "https://github.com/Seltrol/Invoice-System/issues"
   },
   "keywords": "basis, boilerplate, web server, api, bundle, webpack, react",
   "homepage": "https://github.com/KalenAnson/basis#readme",
   "dependencies": {
-	"app-module-path": "^2.2.0",
-	"bcrypt": "^1.0.3",
-	"bootstrap": "^4.0.0-beta.2",
+    "app-module-path": "^2.2.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": ">=1.x",
+    "bootstrap": "^4.0.0-beta.2",
     "config": "*",
-	"font-awesome": "^4.7.0",
-	"hbs": "^4.0.1",
-	"jlog": "file:bundles/jlog",
-	"jquery": "^3.2.1",
-	"kiddy": "^0.3.0",
-	"moment": "^2.20.1",
-	"popper.js": "^1.12.9",
+    "cookies": "0.x",
+    "express": "4.x",
+    "express-session": "^1.12.0",
+    "express-mysql-session": "^1.2.2",
+    "font-awesome": "^4.7.0",
+    "hbs": "^4.0.1",
+    "jlog": "file:bundles/jlog",
+    "jquery": "^3.2.1",
+    "kiddy": "^0.3.0",
+    "less-middleware": "^2.0.1",
+    "longjohn": "^0.2.12",
+    "moment": "^2.20.1",
+    "popper.js": "^1.12.9",
     "q": "^1.5.1",
-	"react": "^16.2.0",
-	"react-datepicker": "^1.0.4",
-	"react-dom": "^16.2.0",
-	"react-router-dom": "^4.2.2",
-	"require-ensure": "^1.0.2"
+    "react": "^16.2.0",
+    "react-datepicker": "^1.0.4",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "require-ensure": "^1.0.2",
+    "serve-static": "1.x"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

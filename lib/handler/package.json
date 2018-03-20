@@ -1,0 +1,7 @@
+{
+	"name" : "basis-handler",
+	"main" : "index.js",
+	"dependencies": {
+		"basis-server": ">=1.0.0"
+	}
+}
