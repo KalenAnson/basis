@@ -10,7 +10,7 @@
 		"level": 5
 	},
 	"modules": {
-		"default": "app",
+		"default": "bundle",
 		"app": true,
 		"auth": true
 	},
